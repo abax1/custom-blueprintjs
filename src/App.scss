@@ -1,17 +1,17 @@
 @import "~@blueprintjs/core/lib/scss/variables";
 
-$tts-primary1: #5e2e85;
-$tts-primary2: #8f58bd;
-$tts-primary3: #775494;
+$custom-primary1: #5e2e85;
+$custom-primary2: #8f58bd;
+$custom-primary3: #775494;
 
-$pt-intent-primary: $tts-primary1;
+$pt-intent-primary: $custom-primary1;
 $pt-intent-success: $green1;
 $pt-intent-warning: $orange1;
 $pt-intent-danger: $red1;
 
 // "intent": (default, hover, active colors)
 $button-intents: (
-  "primary": ($pt-intent-primary, $tts-primary2, $tts-primary3),
+  "primary": ($pt-intent-primary, $custom-primary2, $custom-primary3),
   "success": ($pt-intent-success, $green2, $green1),
   "warning": ($pt-intent-warning, $orange2, $orange1),
   "danger": ($pt-intent-danger, $red2, $red1)
