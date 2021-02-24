@@ -1,5 +1,6 @@
 import logo from './logo.svg';
-import './App.css';
+import { Button, Intent } from "@blueprintjs/core";
+import './App.scss';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+        <Button intent={Intent.PRIMARY}>Button</Button>
+        <Button intent={Intent.DEFAULT}>Button</Button>
       </header>
     </div>
   );
