@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { Button, Intent } from "@blueprintjs/core";
+import { Button, Intent, Spinner } from "@blueprintjs/core";
 import './App.scss';
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
         </a>
         <Button intent={Intent.PRIMARY}>Button</Button>
         <Button intent={Intent.DEFAULT}>Button</Button>
+        <Spinner intent={Intent.PRIMARY}/>
       </header>
     </div>
   );
