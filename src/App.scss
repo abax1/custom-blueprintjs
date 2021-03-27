@@ -9,6 +9,8 @@ $pt-intent-success: $green1;
 $pt-intent-warning: $orange1;
 $pt-intent-danger: $red1;
 
+$pt-icon-color: $custom-primary1;
+
 // "intent": (default, hover, active colors)
 $button-intents: (
   "primary": ($pt-intent-primary, $custom-primary2, $custom-primary3),
